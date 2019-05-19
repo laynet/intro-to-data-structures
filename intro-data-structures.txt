@@ -1,0 +1,35 @@
+1)
+    //a)
+    var arr = ["Vivian", "Ava", "Josh", "Patrick", "Mike"]
+
+    //b)
+    arr.push("Mary")
+    console.log(arr);
+
+    //c)
+    var joshIndex = arr.indexOf("Josh")
+    console.log(joshIndex)
+
+    //d)
+    var emilyIndex = arr.indexOf("Emily")
+    console.log(emilyIndex)
+    -1
+
+    //e)
+    var cutInLine = arr.splice(1, 0, "Melissa")
+    console.log(arr)
+
+    //f)
+    function byePatrick(arr) {
+    var i = arr.indexOf("Patrick");
+    if(i != -1) {
+        arr.splice(i, 1);
+    }
+    return arr
+    }
+
+    byePatrick(arr)
+2)Provide another real-world example that you can model using a data structure.
+keeping a list of users logging in an our of a chatroom like slack
+3)How would your data structure allow developers to access and manipulate the data?
+I don't really understand how to answer this question maybe I did the assignments wrong? I mean they could just re-write the code or use different parameter??
